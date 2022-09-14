@@ -66,6 +66,7 @@
            { title: 'About', icon: 'mdi-help-box', path: '/aboutMe'},
            { title: 'Vuetify', icon: 'mdi-help-box', path: '/aboutVuetify'},
            { title: 'Axios', icon: 'mdi-help-box', path: '/axiosDemo'},
+           { title: 'Quiz', icon: 'mdi-help-box', path: '/quiz'},
         ])
 
  function toggleDrawer(){
