@@ -1,4 +1,5 @@
 <template>
+  <v-card width="1000" class="ma-20 pa-100" elevation="200 ">
   <v-container fluid>
   <v-card color="#008080">
   <v-container>
@@ -22,6 +23,7 @@
   </v-container>
   </v-card>
   </v-container>
+</v-card>
   </template>
   <script setup>
   import { ref } from 'vue';

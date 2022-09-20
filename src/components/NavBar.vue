@@ -65,9 +65,10 @@
            { title: 'String App', icon: 'mdi-help-box', path: '/stringApp'},
            { title: 'About', icon: 'mdi-help-box', path: '/aboutMe'},
            { title: 'Vuetify', icon: 'mdi-help-box', path: '/aboutVuetify'},
-           { title: 'Axios', icon: 'mdi-help-box', path: '/axiosDemo'},
            { title: 'Quiz', icon: 'mdi-help-box', path: '/quizView'},
-           { title: 'About Page', icon: 'mdi-account-circle', path: '/AboutPage'},
+           { title: 'About Page', icon: 'mdi-help-box', path: '/aboutPage'},
+           { title: 'Login', icon: 'mdi-help-box', path: '/login'},
+           
         ])
 
  function toggleDrawer(){

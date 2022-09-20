@@ -1,5 +1,6 @@
 
 <template>
+  <v-card width="1000" class="ma-20 pa-100" elevation="200 ">
     <v-parallax src="https://us.123rf.com/450wm/photoraidz/photoraidz2005/photoraidz200500133/147422824-football-arena-field-with-bright-stadium-lights-vector-design-vector-illumination.jpg?ver=6">
     <v-card
       class="mx-auto"
@@ -65,6 +66,7 @@
           </v-card-text>
     </v-card>
 </v-parallax>
+</v-card>
   </template>
  
 

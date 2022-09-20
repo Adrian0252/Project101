@@ -1,4 +1,5 @@
 <template>
+   <v-card width="1000" class="ma-20 pa-100" elevation="200 ">
     <v-parallax src="https://us.123rf.com/450wm/photoraidz/photoraidz2005/photoraidz200500133/147422824-football-arena-field-with-bright-stadium-lights-vector-design-vector-illumination.jpg?ver=6">
       <div class="container">
       <div class="correctAnswers">
@@ -23,7 +24,7 @@
     </div>
 
     </v-parallax>
-    
+  </v-card>
   </template>
   
   <script>
@@ -262,7 +263,7 @@
     color: rgb(10, 59, 17);
     background: linear-gradient(
       210deg,
-      rgba(122, 198, 241, 0.25),
+      rgba(10, 151, 233, 0.25),
       rgba(65, 205, 248, 0.5)
     );
   }
