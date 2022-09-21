@@ -4,7 +4,7 @@
       <v-card color="#D4EFDF" tonal width="800" class="ma-10 pa-10" elevation="10">
         
         <v-card-title>
-          <h1 style="font-weight: bold; margin-bottom: 20px; color: black;">Sign In</h1>
+          <h1 style="font-weight: bold; margin-bottom: 20px; color: black;">Login</h1>
         </v-card-title>
         <div v-if="error" class="alert alert-danger">{{error}}</div>
         <form action="#" @submit.prevent="Login">
@@ -43,7 +43,7 @@ export default {
           email: email.value,
           password: password.value
         })
-        router.push('/dashboard')
+        router.push('/')
       }
       catch (err) {
         error.value = err.message

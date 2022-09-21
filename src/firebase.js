@@ -9,8 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAFqOxkpjUu6O8HRUQiuK-Mu0UjEsCrn00",
-  authDomain: "azureproject-eb12c.firebaseapp.com",
-  domainURL: "https://console.firebase.google.com/u/1/project/azureproject-eb12c/overview",
+  authDomain: "azureproject-eb12c.firebaseapp.com", 
   projectId: "azureproject-eb12c",
   storageBucket: "azureproject-eb12c.appspot.com",
   messagingSenderId: "340715517465",
@@ -21,3 +20,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+
+
