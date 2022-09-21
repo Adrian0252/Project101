@@ -1,8 +1,9 @@
 <template>
   <center>
-    <v-card tonal width="800" class="ma-10 pa-10" elevation="10">
+    <v-card color="#45B39D">
+      <v-card color="#D4EFDF" tonal width="800" class="ma-10 pa-10" elevation="10">
       <v-card-title>
-        <h1 style="font-weight: bold; margin-bottom: 40px;">Register</h1>
+        <h1 style="font-weight: bold; margin-bottom: 40px; color: black; ">Register</h1>
       </v-card-title>
       <div v-if="error" class="alert alert-danger">{{error}}</div>
       <form action="#" @submit.prevent="Register">
@@ -22,6 +23,7 @@
         </h3>
 
       </form>
+      </v-card>
     </v-card>
   </center>
 </template>
@@ -62,13 +64,13 @@ export default {
 #registerBtn {
   margin-bottom: 40px;
   margin-top: 40px;
-  background-color: #a0a0ee;
+  background-color: #007ec7;
   color: white;
   font-size: 20px;
 }
 
 #registerBtn:hover {
-  background-color: #4e1e7c;
+  background-color: rgb(159, 193, 245);
   color: white;
 }
 

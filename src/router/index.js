@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 import Login from '../views/Login.vue';
 import Register from '../views/Register.vue';
 import Dashboard from '../views/Dashboard.vue';
@@ -108,5 +109,32 @@ const router = createRouter({
 
     ]
 })
+
+const getCurrentUser = () => { 
+  return new Promise((resolve, reject) =>{
+     const removeListener = onAuthStateChanged(
+      getAuth(),
+      (user) => {
+          removeListener();
+          resolve(user);
+      },
+      reject
+     );
+  });
+}
+
+
+router.beforeEach(async(to, from, next) => {
+if (to.matched.some((record) => record.meta.requiresAuth)){
+  if (await getCurrentUser()){
+    next();
+  }else {
+    alert("You need to login first!");
+    next("/login");
+  }
+}else{
+  next();
+}
+});
 
 export default router

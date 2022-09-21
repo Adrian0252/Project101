@@ -10,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: "AIzaSyAFqOxkpjUu6O8HRUQiuK-Mu0UjEsCrn00",
   authDomain: "azureproject-eb12c.firebaseapp.com",
-  https: "https://console.firebase.google.com/u/1/project/azureproject-eb12c/overview",
+  domainURL: "https://console.firebase.google.com/u/1/project/azureproject-eb12c/overview",
   projectId: "azureproject-eb12c",
   storageBucket: "azureproject-eb12c.appspot.com",
   messagingSenderId: "340715517465",
