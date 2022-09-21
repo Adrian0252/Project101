@@ -59,7 +59,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #691f09;
+    color: #f5f2f1;
     line-height: 1.6;
   }
   </style>

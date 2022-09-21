@@ -118,7 +118,7 @@
         this.loading = true;
         
         let index = 0; //To identify single answer
-        let {data} = await axios.get("https://opentdb.com/api.php?amount=5&category=21&difficulty=easy&type=multiple");
+        let {data} = await axios.get("https://opentdb.com/api.php?amount=3&category=21&difficulty=easy");
         let questions = data.results.map((question) => {
           question.answers = [
             question.correct_answer,
